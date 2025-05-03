@@ -3,7 +3,7 @@ let currentLang = 'zh-CN'; // 默认语言
 const translations = {
     'zh-CN': {
         title: '简易图片加水印，防盗图必备',
-        logo: 'shuiyin.4240333.xyz',
+        logo: '加水印',
         heading: '简易图片加水印，防盗图必备',
         subheading: '快速为图片添加自定义水印，非常简单',
         copyright: '@2025 shuiyin.4240333.xyz',
