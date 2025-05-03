@@ -3,10 +3,10 @@ let currentLang = 'zh-CN'; // 默认语言
 const translations = {
     'zh-CN': {
         title: '简易图片加水印，防盗图必备',
-        logo: '加水印.com',
+        logo: 'shuiyin.4240333.xyz',
         heading: '简易图片加水印，防盗图必备',
         subheading: '快速为图片添加自定义水印，非常简单',
-        copyright: '@2025 Jiashuiyin.com',
+        copyright: '@2025 shuiyin.4240333.xyz',
         rights: '保留所有权利；',
         friendlyLinks: '友情链接',
         RefHide: '隐私网址生成器',
@@ -51,7 +51,7 @@ const translations = {
         imageCopied: '图片已复制到剪贴板',
         copyFailed: '复制失败，请重试',
         contactEmail: '邮箱：',
-        emailAddress: 'hi@jiashuiyin.com',
+        emailAddress: 'hi@shuiyin.4240333.xyz',
         howToUse: '如何高效加水印？',
         step1: '选择或粘贴图片（支持最多20张图片同时处理）',
         step2: '输入想要添加的水印文字',
@@ -143,7 +143,7 @@ const translations = {
         imageCopied: 'Image copied to clipboard',
         copyFailed: 'Copy failed, please try again',
         contactEmail: 'Contact: ',
-        emailAddress: 'hi@jiashuiyin.com',
+        emailAddress: 'hi@shuiyin.4240333.xyz',
         howToUse: 'How to Use Watermark Adder',
         step1: 'Select or paste images (up to 20 images at once)',
         step2: 'Enter your watermark text',
@@ -161,9 +161,9 @@ const translations = {
         detailedSteps: 'Detailed Steps',
         watermarkOpacity: 'Opacity(%)',
         qaTitle: 'FAQ',
-        qa1Title: 'Why choose Jiashuiyin.com?',
+        qa1Title: 'Why choose shuiyin.4240333.xyz?',
         qa1Answer: 'Simple to use, efficient batch processing, and excellent user experience. All processing is done locally in the browser, ensuring privacy. Supports various watermark styles and positions to meet different needs.',
-        qa2Title: 'How does Jiashuiyin.com protect user privacy?',
+        qa2Title: 'How does shuiyin.4240333.xyz protect user privacy?',
         qa2Answer: 'All image processing is done in your local browser, no files are uploaded to any server. Both source files and processed files remain only on your device, ensuring the security of sensitive information. The website is completely free, no registration required, and we collect no user information.',
         qa3Title: 'What are the typical use cases?',
         qa3Answer: '1) Protecting marketing materials for private domain operations, popular among e-commerce brand operators; 2) Protecting sensitive documents like ID cards and business licenses; 3) Copyright protection for photography works; 4) Adding brand identifiers to product images and promotional materials.',
@@ -258,7 +258,7 @@ function updateMetadata(lang) {
     if (metaDescription) {
         metaDescription.content = lang === 'en' 
             ? 'Watermark Adder is a simple online tool for adding watermarks to images. Support batch processing, custom watermark text, position, color, and size. Protect your images from unauthorized use. Free, no registration required.'
-            : '加水印.com 是一款简单易用的在线图片加水印工具。支持批量处理、自定义水印文字、位置、颜色和大小。保护您的图片，防止盗图。完全免费，无需注册。';
+            : 'shuiyin.4240333.xyz 是一款简单易用的在线图片加水印工具。支持批量处理、自定义水印文字、位置、颜色和大小。保护您的图片，防止盗图。完全免费，无需注册。';
     }
 
     // 更新 Open Graph 标签
